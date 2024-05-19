@@ -28,6 +28,12 @@
             <artifactId>junit</artifactId>
             <version>4.12</version>
         </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
     <build>
@@ -46,14 +52,14 @@
                     <dependency>
                         <groupId>org.codehaus.groovy</groupId>
                         <artifactId>groovy-eclipse-compiler</artifactId>
-                        <!--<version>3.0.0-01</version>-->
-                        <version>3.7.0</version>
+                        <version>3.0.0-01</version>
+                        <!--<version>3.7.0</version>-->
                     </dependency>
                     <dependency>
                         <groupId>org.codehaus.groovy</groupId>
                         <artifactId>groovy-eclipse-batch</artifactId>
-                        <!--<version>2.5.4-01</version>-->
-                        <version>3.0.8-01</version>
+                        <version>2.5.4-01</version>
+                        <!--<version>3.0.8-01</version>-->
                     </dependency>
                 </dependencies>
             </plugin>
