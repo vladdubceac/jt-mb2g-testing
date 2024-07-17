@@ -22,10 +22,7 @@
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-api</artifactId>
             <version>${junit.version}</version>
-<<<<<<< HEAD
-=======
             <scope>test</scope>
->>>>>>> 814c835dda26f7dcef73004feba91dab8fd6b696
         </dependency>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
