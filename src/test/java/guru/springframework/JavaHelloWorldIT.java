@@ -2,7 +2,7 @@ package guru.springframework;
 
 import org.junit.jupiter.api.Test;
 
-class JavaHelloWorldIT {
+public class JavaHelloWorldIT {
 
     @Test
     void myFauxIntegrationTest() {
