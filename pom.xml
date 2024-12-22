@@ -39,9 +39,6 @@
                     <url>packagecloud+https://packagecloud.io/springframeworkguru/snapshot</url>
                 </snapshotRepository>
             </distributionManagement>
-            <activation>
-                <activeByDefault>true</activeByDefault>
-            </activation>
         </profile>
         <profile>
             <id>nexus-distro</id>
